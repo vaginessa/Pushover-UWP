@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Pushover_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pushover_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#333232">
+
+    <StackPanel VerticalAlignment="Center">
+        <TextBlock HorizontalAlignment="Center" Name="Text" VerticalAlignment="Center" TextWrapping="Wrap" Text="TextBlock">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0"/> 
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" FontSize="11">Click me please</Button>
+
+    </StackPanel>
+</Page>
